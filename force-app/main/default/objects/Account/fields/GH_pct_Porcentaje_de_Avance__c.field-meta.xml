@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_pct_Porcentaje_de_Avance__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>Campo donde se guarda el % de avance de credencialización</description>
+    <label>Porcentaje de Avance</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

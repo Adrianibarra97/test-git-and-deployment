@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_FormatoLastName</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(ISBLANK(LastName )
+), NOT ( REGEX( LastName , &apos;^[A-ZÜÑ .]*$&apos;)
+)
+)</errorConditionFormula>
+    <errorDisplayField>LastName</errorDisplayField>
+    <errorMessage>El Apellido solo puede contener MAYUSCULAS sin acentos</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_RV_ValidaFechaTerminoAreaOp</fullName>
+    <active>true</active>
+    <description>Se valida que la fecha de compromiso de término no sea menor a la fecha de inicio</description>
+    <errorConditionFormula>GH_fec_FechaCompTermino__c &lt; GH_fec_FechaCompInicio__c</errorConditionFormula>
+    <errorDisplayField>GH_fec_FechaCompTermino__c</errorDisplayField>
+    <errorMessage>La fecha de compromiso de término no puede ser menor a la fecha de inicio</errorMessage>
+</ValidationRule>

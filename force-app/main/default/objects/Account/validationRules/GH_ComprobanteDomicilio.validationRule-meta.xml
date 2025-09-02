@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_ComprobanteDomicilio</fullName>
+    <active>true</active>
+    <description>Comprueba que este adjunto el Comprobante de domicilio</description>
+    <errorConditionFormula>AND( ISPICKVAL( GH_pkl_ComprobanteDeDomicilio__c,&quot;SI&quot; ),
+  			ISBLANK(GH_url_AdjuntoComprobanteDomicilio__c)
+			)</errorConditionFormula>
+    <errorMessage>Adjunte el Comprobante de domicilio</errorMessage>
+</ValidationRule>

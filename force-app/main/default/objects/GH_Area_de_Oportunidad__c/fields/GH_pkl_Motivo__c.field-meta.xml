@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_pkl_Motivo__c</fullName>
+    <externalId>false</externalId>
+    <label>Motivo</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No_esta_dentro_de_los_objetivos_actuales_del_Grupo_MAC</fullName>
+                <default>false</default>
+                <label>No está dentro de los objetivos actuales del Grupo MAC</label>
+            </value>
+            <value>
+                <fullName>No_esta_dentro_de_los_objetivos_actuales_de_la_UH</fullName>
+                <default>false</default>
+                <label>No está dentro de los objetivos actuales de la UH</label>
+            </value>
+            <value>
+                <fullName>Remodelacion_no_incluida_en_proyecto_actual_del_Corporativo</fullName>
+                <default>false</default>
+                <label>Remodelación no incluida en proyecto actual del Corporativo</label>
+            </value>
+            <value>
+                <fullName>Instrumental_no_incluido_dentro_del_presupuesto_anual</fullName>
+                <default>false</default>
+                <label>Instrumental no incluido dentro del presupuesto anual</label>
+            </value>
+            <value>
+                <fullName>Equipo_no_incluido_dentro_del_presupuesto_anual</fullName>
+                <default>false</default>
+                <label>Equipo no incluido dentro del presupuesto anual</label>
+            </value>
+            <value>
+                <fullName>Mobiliario_no_incluido_dentro_del_presupuesto_anual</fullName>
+                <default>false</default>
+                <label>Mobiliario no incluido dentro del presupuesto anual</label>
+            </value>
+            <value>
+                <fullName>Indicacion_de_Direccion_de_Operaciones_Corporativo</fullName>
+                <default>false</default>
+                <label>Indicación de Dirección de Operaciones Corporativo</label>
+            </value>
+            <value>
+                <fullName>Indicacion_de_Direccion_de_Finanzas_Corporativo</fullName>
+                <default>false</default>
+                <label>Indicación de Dirección de Finanzas Corporativo</label>
+            </value>
+            <value>
+                <fullName>Indicacion_de_Direccion_de_Crecimiento_Corporativo</fullName>
+                <default>false</default>
+                <label>Indicación de Dirección de  Crecimiento Corporativo</label>
+            </value>
+            <value>
+                <fullName>Indicacion_de_otra_Direccion</fullName>
+                <default>false</default>
+                <label>Indicación de otra Dirección</label>
+            </value>
+            <value>
+                <fullName>Motivo 1</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Motivo 1</label>
+            </value>
+            <value>
+                <fullName>Motivo 2</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Motivo 2</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

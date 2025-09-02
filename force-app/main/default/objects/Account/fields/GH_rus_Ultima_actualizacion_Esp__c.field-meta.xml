@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_rus_Ultima_actualizacion_Esp__c</fullName>
+    <description>Campo que ayuda a actualizar la cuenta cuando se crea una especialidad completa</description>
+    <label>Ultima actualización de Especialidades</label>
+    <summarizedField>GH_Especialidad__c.LastModifiedDate</summarizedField>
+    <summaryForeignKey>GH_Especialidad__c.GH_Master_Cuenta__c</summaryForeignKey>
+    <summaryOperation>max</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

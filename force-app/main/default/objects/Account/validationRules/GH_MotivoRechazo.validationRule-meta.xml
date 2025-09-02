@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_MotivoRechazo</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK( TEXT(GH_pkl_MotivoRechazo__c) ) &amp;&amp;  TEXT(GH_pkl_MotivoRechazo__c)==&apos;Rechazado&apos;</errorConditionFormula>
+    <errorDisplayField>GH_pkl_MotivoRechazo__c</errorDisplayField>
+    <errorMessage>Se debe agregar el Motivo de Rechazo</errorMessage>
+</ValidationRule>

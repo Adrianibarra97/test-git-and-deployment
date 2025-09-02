@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_pkl_Origen__c</fullName>
+    <defaultValue>IF( OR($UserRole.DeveloperName  =&apos;Ejecutivo_de_Ventas_Cel_UH&apos;,$UserRole.DeveloperName =&apos;Jefe_de_Ventas_Cel_UH&apos;),&apos;Transitorio&apos;,&apos;&apos;)</defaultValue>
+    <label>Tipo de Credencialización Inicial</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Permanente</fullName>
+                <default>false</default>
+                <label>Permanente</label>
+            </value>
+            <value>
+                <fullName>Temporal</fullName>
+                <default>false</default>
+                <label>Temporal</label>
+            </value>
+            <value>
+                <fullName>Transitorio</fullName>
+                <default>false</default>
+                <label>Transitorio</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

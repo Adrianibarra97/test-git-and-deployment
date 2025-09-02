@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_RV_ValidaCambioEstadoAreaOpPuestoResp</fullName>
+    <active>true</active>
+    <description>Se valida que el puesto del responsable sea ingresado para cambiar de estado</description>
+    <errorConditionFormula>AND (
+    !ISPICKVAL(GH_pkl_Estado__c, &quot;Sin escalar&quot;),
+    ISBLANK(GH_txt_PuestoRespSol__c)
+)</errorConditionFormula>
+    <errorDisplayField>GH_txt_PuestoRespSol__c</errorDisplayField>
+    <errorMessage>El puesto del responsable de la solución es obligatorio para cambiar de estado</errorMessage>
+</ValidationRule>

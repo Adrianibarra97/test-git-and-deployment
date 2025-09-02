@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_AdjuntoVerificacionCedulaGeneral</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(GH_pkl_Verific_Cedula_Fue_Ori_Med_Gral__c, &apos;SI&apos;) &amp;&amp; ISBLANK( GH_url_AdjVerificacionCedulaGeneral__c )</errorConditionFormula>
+    <errorDisplayField>GH_url_AdjVerificacionCedulaGeneral__c</errorDisplayField>
+    <errorMessage>Campo Obligatorio</errorMessage>
+</ValidationRule>

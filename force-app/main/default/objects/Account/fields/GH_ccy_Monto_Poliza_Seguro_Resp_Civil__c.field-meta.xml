@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_ccy_Monto_Poliza_Seguro_Resp_Civil__c</fullName>
+    <description>Monto de póliza de seguro de responsabilidad civil</description>
+    <inlineHelpText>Monto de póliza de seguro de responsabilidad civil</inlineHelpText>
+    <label>Monto Póliza Seguro de Resp. Civil</label>
+    <precision>10</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_ValidaCredTransitoria</fullName>
+    <active>true</active>
+    <description>Regla para validar que no se mande a aprobar una credencialización como transitoria</description>
+    <errorConditionFormula>AND (
+ ISPICKVAL(GH_pkl_Estatus__c, &quot;Privilegios Completo o Incompleto&quot;),  (ISPICKVAL(GH_pkl_Cambio_tipoCredencializacion__c, &quot;Transitorio&quot;) || ISPICKVAL(GH_pkl_Cambio_tipoCredencializacion__c, &quot;&quot;)), 
+ISPICKVAL(GH_pkl_Origen__c,&quot;Transitorio&quot;) 
+)</errorConditionFormula>
+    <errorMessage>Para enviar una solicitud de credencialización a aprobación debe elegir si la credencialización será Permanente o Temporal</errorMessage>
+</ValidationRule>

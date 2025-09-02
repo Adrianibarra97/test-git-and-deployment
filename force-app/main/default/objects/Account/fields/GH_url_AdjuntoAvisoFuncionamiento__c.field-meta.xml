@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_url_AdjuntoAvisoFuncionamiento__c</fullName>
+    <description>Adjunto aviso funcionamiento</description>
+    <inlineHelpText>Adjunto aviso funcionamiento</inlineHelpText>
+    <label>Adjunto aviso funcionamiento</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Url</type>
+</CustomField>

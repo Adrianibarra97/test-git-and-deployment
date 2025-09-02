@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_AvisoFuncionamientoConsultorio</fullName>
+    <active>true</active>
+    <description>Comprueba que el Aviso de funcionamiento de consultorio sea adjuntado</description>
+    <errorConditionFormula>AND( ISPICKVAL( GH_pkl_AvisoFuncionamientoConsultorio__c,&quot;SI&quot; ),
+ISBLANK(GH_url_AdjuntoAvisoFuncionamiento__c)
+)</errorConditionFormula>
+    <errorMessage>Adjunte el Aviso de funcionamiento de consultorio</errorMessage>
+</ValidationRule>

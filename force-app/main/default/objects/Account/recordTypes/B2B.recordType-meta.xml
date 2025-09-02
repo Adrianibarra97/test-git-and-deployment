@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B</fullName>
+    <active>true</active>
+    <description>RecordType para B2B</description>
+    <label>B2B</label>
+    <picklistValues>
+        <picklist>AccountSource</picklist>
+        <values>
+            <fullName>Redes Sociales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venta Directa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WhatsApp</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_AvisoDePrivacidad__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_AvisoFuncionamientoConsultorio__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_BaseDeOrigen__c</picklist>
+        <values>
+            <fullName>Credencialización</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Directorio Mkt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Productividad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Productividad sin actividad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vinculación Médica</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_CV__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_Cambio_tipoCredencializacion__c</picklist>
+        <values>
+            <fullName>Permanente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Temporal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transitorio</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_Cobertura_de_Credenciales__c</picklist>
+        <values>
+            <fullName>Credencial Completa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credencial Incompleta</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_ComprobanteDeDomicilio__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_DirectorioMKt__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_Especialidad_Principal__c</picklist>
+        <values>
+            <fullName>Acupuntura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biomedicina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuidados Paliativos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Endoscopia del Aparato Digestivo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Imagen de la mama</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ingeniero Bionico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicina Aeroespacial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicina Familiar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicina General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicina Interna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicina Legal y Forense</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicina Materno Fetal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicina Nuclear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicina de Urgencias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicina del Deporte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicina del Sueño</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicina del Trabajo y Ambiental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neurología</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terapia intensiva pediátrica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trasplante Renal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urgencias adultos</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_EstadodePrivilegios__c</picklist>
+        <values>
+            <fullName>Con Privilegios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin Privilegios</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_EstadodelMedico__c</picklist>
+        <values>
+            <fullName>Activo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactivo</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_Estatus__c</picklist>
+        <values>
+            <fullName>Aprobado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baja</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En Proceso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En Solicitud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Privilegios Completo o Incompleto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rechazado</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_Genero__c</picklist>
+        <values>
+            <fullName>Femenino</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Masculino</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_INE__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_MotivoPrivilegiosIncompletos__c</picklist>
+        <values>
+            <fullName>Dirección administrativa solicita seguir proceso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dirección médica corporativa solicita seguir proceso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dirección médica solicita seguir proceso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dirección regional solicita seguir proceso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El monto de la póliza de seguro de responsabilidad civil es inferior a 1 mdp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Esta en proceso la emisión de la cédula de especialidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Esta en proceso la emisión de la cédula de licenciatura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Esta en proceso la emisión de la cédula de subespecialidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Esta en proceso la emisión del consejo de especialidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Esta en proceso la emisión del consejo de subespecialidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Esta en proceso la emisión del titulo de especialidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Esta en proceso la emisión del titulo de licenciatura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Esta en proceso la emisión del titulo de subespecialidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falta cédula profesional de especialidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falta cédula profesional de licenciatura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falta cédula profesional de subespecialidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falta de póliza de seguro de responsabilidad civil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falta título de especialidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falta título de licenciatura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falta título de subespecialidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No está vigente la póliza de seguro de responsabilidad civil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No se pudo verificar consejo de especialidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No se pudo verificar consejo de subespecialidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No se pudo verificar cédula de especialidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No se pudo verificar cédula de licenciatura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No se pudo verificar cédula de subespecialidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No tiene consejo de especialidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No tiene consejo de subespecialidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No tiene vigente el consejo de especialidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No tiene vigente el consejo de subespecialidad</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_MotivoRechazo__c</picklist>
+        <values>
+            <fullName>Grupo MAC no está interesado en que el médico pertenezca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Unidad Hospitalaria no está interesada en que el médico pertenezca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Los privilegios solicitados no son congruentes con su educación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No cumple con documentación requerida</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_Motivo_de_Baja__c</picklist>
+        <values>
+            <fullName>Faltas administrativas graves</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incumplimiento del Reglamento %2F Código de ético</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mala praxis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prácticas no éticas</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_Motivo_de_Cancelacion__c</picklist>
+        <values>
+            <fullName>Dirección admtiva%2E dió indicación de no seguir proceso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dirección médica dió indicación de no seguir proceso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Médico indica no estar interesado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Médico no envió documentación</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_Motivo_de_Reactivacion__c</picklist>
+        <values>
+            <fullName>Mot1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mot2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_Motivo_de_Rechazo__c</picklist>
+        <values>
+            <fullName>No cumple con documentación requerida</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_Origen__c</picklist>
+        <values>
+            <fullName>Temporal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transitorio</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_Otros_diplomas_y_estudios__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_Programa__c</picklist>
+        <values>
+            <fullName>Directorio MKT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Red medica MAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Socios MAC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_QuirurgicoOClinico__c</picklist>
+        <values>
+            <fullName>Clínico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quirúrgico</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_RedMACPremium__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_SociosMAC__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_Solicitud_de_Credencializacion__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_Solicitud_de_Priv_y_Compl__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_Subestado_de_Baja__c</picklist>
+        <values>
+            <fullName>Baja Aceptada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baja Rechazada</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_Subestado_de_Reactivacion__c</picklist>
+        <values>
+            <fullName>Reactivación Aceptada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reactivación Rechazada</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_TipoConsultorio__c</picklist>
+        <values>
+            <fullName>PROPIO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_Titulo_Licenciatura__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_TrabajaEnMAC__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_UnidadSede__c</picklist>
+        <values>
+            <fullName>Aguascalientes Norte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aguascalientes Sur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Celaya</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guadalajara</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Irapuato</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Viga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>León</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Los Cabos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Los Mochis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MediMAC Boca del Río</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MediMAC Cuemanco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MediMAC Ecatepec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MediMAC Guanajuato</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MediMAC Mérida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MediMAC Tlalnepantla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mexicali</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Periférico Sur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Puebla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Querétaro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Miguel de Allende</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tampico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Veracruz</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_ValidacionPorDirectorMedico__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GH_pkl_Verific_Cedula_Fue_Ori_Med_Gral__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apparel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not For Profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsidiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__CoTerminationEvent__c</picklist>
+        <values>
+            <fullName>Add-on</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__ContractCoTermination__c</picklist>
+        <values>
+            <fullName>Always</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Never</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Prompt</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__RenewalModel__c</picklist>
+        <values>
+            <fullName>Asset Based</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract Based</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__RenewalPricingMethod__c</picklist>
+        <values>
+            <fullName>List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Same</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Uplift</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__TaxExempt__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

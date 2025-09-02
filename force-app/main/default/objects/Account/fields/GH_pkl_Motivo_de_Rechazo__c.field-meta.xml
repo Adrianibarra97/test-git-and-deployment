@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_pkl_Motivo_de_Rechazo__c</fullName>
+    <label>Motivo de Rechazo</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No cumple con documentación requerida</fullName>
+                <default>false</default>
+                <label>No cumple con documentación requerida</label>
+            </value>
+            <value>
+                <fullName>La Unidad Hospitalaria no está interesada en que el médico pertenezca</fullName>
+                <default>false</default>
+                <label>La Unidad Hospitalaria no está interesada en que el médico pertenezca</label>
+            </value>
+            <value>
+                <fullName>Grupo MAC no está interesado en que el médico pertenezca</fullName>
+                <default>false</default>
+                <label>Grupo MAC no está interesado en que el médico pertenezca</label>
+            </value>
+            <value>
+                <fullName>Los privilegios solicitados no son congruentes con su educación</fullName>
+                <default>false</default>
+                <label>Los privilegios solicitados no son congruentes con su educación</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

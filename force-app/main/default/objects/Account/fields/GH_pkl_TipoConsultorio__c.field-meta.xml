@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_pkl_TipoConsultorio__c</fullName>
+    <description>para credencialización, tipo de consultorio</description>
+    <label>Tipo de Consultorio</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Tipo 1</fullName>
+                <default>false</default>
+                <label>Tipo 1</label>
+            </value>
+            <value>
+                <fullName>PROPIO</fullName>
+                <default>false</default>
+                <label>PROPIO</label>
+            </value>
+            <value>
+                <fullName>ARRENDADO MAC</fullName>
+                <default>false</default>
+                <label>ARRENDADO MAC</label>
+            </value>
+            <value>
+                <fullName>SUBARRENDADO</fullName>
+                <default>false</default>
+                <label>SUBARRENDADO</label>
+            </value>
+            <value>
+                <fullName>COMPARTIDO</fullName>
+                <default>false</default>
+                <label>COMPARTIDO</label>
+            </value>
+            <value>
+                <fullName>EXTERNO</fullName>
+                <default>false</default>
+                <label>EXTERNO</label>
+            </value>
+            <value>
+                <fullName>BENEFICIO SIN COBRO</fullName>
+                <default>false</default>
+                <label>BENEFICIO SIN COBRO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

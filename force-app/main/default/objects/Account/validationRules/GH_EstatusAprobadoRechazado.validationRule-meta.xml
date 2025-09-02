@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_EstatusAprobadoRechazado</fullName>
+    <active>true</active>
+    <description>Valida quien puede modificar el estatus a Aprobado y Rechazado</description>
+    <errorConditionFormula>($Profile.Name!=&apos;Dirección Médica - UH&apos; &amp;&amp; 
+$Profile.Name!=&apos;System Administrator&apos; &amp;&amp;
+$Profile.Name!=&apos;Administrador del sistema&apos; ) &amp;&amp; 
+(TEXT(GH_pkl_Estatus__c)=&apos;Aprobado&apos; || TEXT(GH_pkl_Estatus__c)=&apos;Rechazado&apos;) &amp;&amp;  ISCHANGED(GH_pkl_Estatus__c)</errorConditionFormula>
+    <errorMessage>Solo el Director Medico de la UH puede Aprobar o Rechazar</errorMessage>
+</ValidationRule>

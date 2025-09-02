@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_Solicitudes_Credencializacion_Pendientes</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>GH_pkl_Estatus__c</columns>
+    <columns>GH_lkp_Unidad_Hospitalaria__c</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>GH_ckb_Listo_para_Aprobacion__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>GH_pkl_EstadodePrivilegios__c</field>
+        <operation>notEqual</operation>
+        <value>Con Privilegios</value>
+    </filters>
+    <label>Solicitudes Credencialización Pendientes</label>
+</ListView>

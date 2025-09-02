@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_pkl_Cambio_tipoCredencializacion__c</fullName>
+    <label>Cambio de tipo de Credencialización</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Permanente</fullName>
+                <default>false</default>
+                <label>Permanente</label>
+            </value>
+            <value>
+                <fullName>Temporal</fullName>
+                <default>false</default>
+                <label>Temporal</label>
+            </value>
+            <value>
+                <fullName>Transitorio</fullName>
+                <default>false</default>
+                <label>Transitorio</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

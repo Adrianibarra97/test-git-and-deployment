@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_pct_Efectividad_Guardia__c</fullName>
+    <description>Porcentaje de efectividad de los llamados</description>
+    <inlineHelpText>Cálculo Score:
+
+Médico que asistió a la guardia suma 1 punto
+Médico que asistió con demora a la guardia suma 0.5 punto
+Médico que no asistió a la guardia suma -0.5 punto
+El porcentaje de efectividad será:
+
+(score total del médico * 100) / total de llamados en el mes (universo)</inlineHelpText>
+    <label>Efectividad Guardia</label>
+    <precision>6</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

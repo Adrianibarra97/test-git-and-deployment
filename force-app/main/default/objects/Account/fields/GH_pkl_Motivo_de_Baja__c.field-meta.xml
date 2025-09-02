@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_pkl_Motivo_de_Baja__c</fullName>
+    <label>Motivo de Baja</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Mala praxis</fullName>
+                <default>false</default>
+                <label>Mala praxis</label>
+            </value>
+            <value>
+                <fullName>Prácticas no éticas</fullName>
+                <default>false</default>
+                <label>Prácticas no éticas</label>
+            </value>
+            <value>
+                <fullName>Faltas administrativas graves</fullName>
+                <default>false</default>
+                <label>Faltas administrativas graves</label>
+            </value>
+            <value>
+                <fullName>Incumplimiento del Reglamento / Código de ético</fullName>
+                <default>false</default>
+                <label>Incumplimiento del Reglamento / Código de ético</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

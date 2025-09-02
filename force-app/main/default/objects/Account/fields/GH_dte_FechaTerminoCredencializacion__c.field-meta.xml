@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_dte_FechaTerminoCredencializacion__c</fullName>
+    <defaultValue>(TODAY() + 7)</defaultValue>
+    <description>Campo para credencialización.</description>
+    <label>Fecha termino credencializacion</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

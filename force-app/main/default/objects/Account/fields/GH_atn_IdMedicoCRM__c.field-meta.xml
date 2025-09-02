@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_atn_IdMedicoCRM__c</fullName>
+    <description>Campo para credencialización.</description>
+    <displayFormat>Med-{0000}</displayFormat>
+    <externalId>false</externalId>
+    <label>ID Medico CRM</label>
+    <trackHistory>false</trackHistory>
+    <type>AutoNumber</type>
+</CustomField>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_Account_AsignarAProyectosUnidadHospitalaria</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND ((4 AND NOT(5 OR 6)) OR (5 AND NOT(4 OR 6)) OR (6 AND NOT(4 OR 5)))</booleanFilter>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>GH_lkp_Unidad_Hospitalaria__c</columns>
+    <columns>GH_pkl_Especialidad_Principal__c</columns>
+    <columns>GH_pkl_EstadodelMedico__c</columns>
+    <columns>GH_pkl_Programa__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>GH_lkp_Unidad_Hospitalaria__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>GH_pkl_Especialidad_Principal__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>GH_pkl_Programa__c</field>
+        <operation>equals</operation>
+        <value>Red medica MAC,Socios MAC,Directorio MKT</value>
+    </filters>
+    <filters>
+        <field>GH_pkl_RedMACPremium__c</field>
+        <operation>equals</operation>
+        <value>Si</value>
+    </filters>
+    <filters>
+        <field>GH_pkl_SociosMAC__c</field>
+        <operation>equals</operation>
+        <value>Si</value>
+    </filters>
+    <filters>
+        <field>GH_pkl_DirectorioMKt__c</field>
+        <operation>equals</operation>
+        <value>Si</value>
+    </filters>
+    <label>Asignar a Proyectos Unidad Hospitalaria</label>
+    <sharedTo>
+        <role>Vinculacion_Medica_Corp</role>
+        <role>Vinculacion_Medica_UH</role>
+    </sharedTo>
+</ListView>

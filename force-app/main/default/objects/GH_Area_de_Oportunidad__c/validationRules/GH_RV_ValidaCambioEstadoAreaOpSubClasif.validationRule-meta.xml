@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_RV_ValidaCambioEstadoAreaOpSubClasif</fullName>
+    <active>true</active>
+    <description>Se valida que la subclasificación del tema sea ingresada para cambiar de estado</description>
+    <errorConditionFormula>AND (
+    !ISPICKVAL(GH_pkl_Estado__c, &quot;Sin escalar&quot;),
+ 			ISBLANK(GH_lkp_ClasificacionDeTema__r.GH_fla_SubclasificacionDeTema__c)
+)</errorConditionFormula>
+    <errorDisplayField>GH_lkp_ClasificacionDeTema__c</errorDisplayField>
+    <errorMessage>La subclasificación del tema es obligatoria para cambiar de estado</errorMessage>
+</ValidationRule>

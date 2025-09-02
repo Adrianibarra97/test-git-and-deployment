@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_ValidarFormatoPuesto</fullName>
+    <active>true</active>
+    <description>Valida que las letras se proporcionen en MAYÚCULAS y sin acentos; así como, los caracteres válidos.</description>
+    <errorConditionFormula>( NOT(ISBLANK(GH_txt_Puesto__c)) &amp;&amp; 
+  NOT( REGEX(GH_txt_Puesto__c, &apos;^[A-ZÑÜ 0-9-,.;:_¡!¿?|&quot;#$%&amp;+*=&lt;&gt;\\/\\[\\]\\(\\)\\{\\}\\\&apos;\\s]*$&apos;) )
+)</errorConditionFormula>
+    <errorDisplayField>GH_txt_Puesto__c</errorDisplayField>
+    <errorMessage>En Puesto solo se permiten letras en MAYÚCULAS y sin acentos.</errorMessage>
+</ValidationRule>

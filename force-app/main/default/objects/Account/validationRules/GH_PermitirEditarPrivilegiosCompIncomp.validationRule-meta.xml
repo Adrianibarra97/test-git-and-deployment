@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_PermitirEditarPrivilegiosCompIncomp</fullName>
+    <active>true</active>
+    <description>No permitir editar campos cuando el estado es Privilegios completos o incompletos; solo si el perfil es Vinculación Médica - UH o Vinculación Médica - Corp</description>
+    <errorConditionFormula>AND(
+				NOT(ISCHANGED(GH_pkl_Estatus__c)),
+				ISPICKVAL(GH_pkl_Estatus__c, &apos;Privilegios Completo o Incompleto&apos;)
+)</errorConditionFormula>
+    <errorMessage>El Estado actual  de &apos;Privilegios Completo o Incompleto&apos; del médico no permite actualizar ningún campo.</errorMessage>
+</ValidationRule>

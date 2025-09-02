@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_RV_ValidaFechaInicioAreaOp</fullName>
+    <active>true</active>
+    <description>Se valida que la fecha de inicio de un área de oportunidad no sea menor al día actual</description>
+    <errorConditionFormula>GH_fec_FechaCompInicio__c &lt; TODAY()</errorConditionFormula>
+    <errorDisplayField>GH_fec_FechaCompInicio__c</errorDisplayField>
+    <errorMessage>La fecha de compromiso de inicio del área de oportunidad debe ser igual o mayor a la fecha actual</errorMessage>
+</ValidationRule>

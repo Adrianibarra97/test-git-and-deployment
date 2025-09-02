@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_pkl_SubdireccionGerenciaCoordinacion__c</fullName>
+    <externalId>false</externalId>
+    <label>Subdirección / Gerencia / Coordinación</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Gerente_de_BI_Alfredo_Perez_Villalobos</fullName>
+                <default>false</default>
+                <label>Gerente de BI - Alfredo Perez Villalobos</label>
+            </value>
+            <value>
+                <fullName>Gerente_de_pricing_operacion_Omar_Cielo_Torres</fullName>
+                <default>false</default>
+                <label>Gerente de pricing (operación) - Omar Cielo Torres</label>
+            </value>
+            <value>
+                <fullName>Gerente_de_pricing_proyectos_Mayra_Del_Vivar_Vega</fullName>
+                <default>false</default>
+                <label>Gerente de pricing (proyectos) - Mayra Del Vivar Vega</label>
+            </value>
+            <value>
+                <fullName>Gerente_de_vinculacion_medica_Monica_Sanchez_Aguirre</fullName>
+                <default>false</default>
+                <label>Gerente de vinculación médica - Monica Sánchez Aguirre</label>
+            </value>
+            <value>
+                <fullName>Gerente_Regional_de_Admision_r1_Victor_Manuel_Velazquez_Perez</fullName>
+                <default>false</default>
+                <label>Gerente Regional de Admisión r1 - Victor Manuel Velazquez Perez</label>
+            </value>
+            <value>
+                <fullName>Gerente_Regional_de_Admision_r2_Laura_Sanchez</fullName>
+                <default>false</default>
+                <label>Gerente Regional de Admisión r2 - Laura Sánchez</label>
+            </value>
+            <value>
+                <fullName>Gerente_Regional_de_Admision_r3_Lourdes_Vianey_Zimbron_de_la_Cruz</fullName>
+                <default>false</default>
+                <label>Gerente Regional de Admisión r3 - Lourdes Vianey Zimbron de la Cruz</label>
+            </value>
+            <value>
+                <fullName>Subdireccion_admision_Claudia_Janet_Lopez_Jimenez</fullName>
+                <default>false</default>
+                <label>Subdirección admisión - Claudia Janet Lopez Jimenez</label>
+            </value>
+            <value>
+                <fullName>Subdireccion_de_aperturas_e_integraciones_Joao_Gabriel_Zanetti_Carvalho</fullName>
+                <default>false</default>
+                <label>Subdirección de aperturas e integraciones - Joao Gabriel Zanetti Carvalho</label>
+            </value>
+            <value>
+                <fullName>Subdireccion_de_control_administrativo_Maria_Fernanda_Vazquez_Nunez</fullName>
+                <default>false</default>
+                <label>Subdirección de control administrativo - María Fernanda Vazquez Nuñez</label>
+            </value>
+            <value>
+                <fullName>Subdireccion_Medica_Juan_Antonio_Perez_Cervantes</fullName>
+                <default>false</default>
+                <label>Subdirección Médica - Juan Antonio Perez Cervantes</label>
+            </value>
+            <value>
+                <fullName>Subdirector_de_BI_Leonardo_Rodriguez_Gutierrez</fullName>
+                <default>false</default>
+                <label>Subdirector de BI - Leonardo Rodríguez Gutierrez</label>
+            </value>
+            <value>
+                <fullName>Subdirector_de_convenios_Joan_Martin_Lopez_Sanchez</fullName>
+                <default>false</default>
+                <label>Subdirector de convenios - Joan Martín López Sánchez</label>
+            </value>
+            <value>
+                <fullName>Subdirector_de_finanzas_Jose_Maya</fullName>
+                <default>false</default>
+                <label>Subdirector de finanzas - José Maya</label>
+            </value>
+            <value>
+                <fullName>Subdirector_de_Innovacion_Ivan_Zavala</fullName>
+                <default>false</default>
+                <label>Subdirector de Innovación - Ivan Zavala</label>
+            </value>
+            <value>
+                <fullName>Subdirector_de_Pricing_Omar_Jimenez</fullName>
+                <default>false</default>
+                <label>Subdirector de Pricing - Omar Jimenez</label>
+            </value>
+            <value>
+                <fullName>Subdirector_de_socios_estrategicos_Jaime_Arriaga_Ruiloba</fullName>
+                <default>false</default>
+                <label>Subdirector de socios estratégicos - Jaime Arriaga Ruiloba</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

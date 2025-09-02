@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_CambiarOwner</fullName>
+    <active>true</active>
+    <errorConditionFormula>$Profile.Name != &apos;Vinculación Médica - Corp&apos; &amp;&amp; $Profile.Name != &quot;Administrador del sistema&quot; &amp;&amp;
+$Profile.Name!=&apos;System Administrator&apos; &amp;&amp;  ISCHANGED(OwnerId)</errorConditionFormula>
+    <errorMessage>Solo el Vinculador Corporativo puede cambiar de propietario</errorMessage>
+</ValidationRule>

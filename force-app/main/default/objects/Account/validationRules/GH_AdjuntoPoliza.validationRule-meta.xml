@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_AdjuntoPoliza</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(ISBLANK(GH_txt_Num_Poliza_Seguro_Resp_Civil__c)) &amp;&amp; ISBLANK( GH_url_AdjuntoPoliza__c )</errorConditionFormula>
+    <errorDisplayField>GH_url_AdjuntoPoliza__c</errorDisplayField>
+    <errorMessage>Campo Obligatorio</errorMessage>
+</ValidationRule>

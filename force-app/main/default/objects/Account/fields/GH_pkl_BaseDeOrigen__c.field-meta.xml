@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_pkl_BaseDeOrigen__c</fullName>
+    <label>Base de origen</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Productividad</fullName>
+                <default>false</default>
+                <label>Productividad</label>
+            </value>
+            <value>
+                <fullName>Credencialización</fullName>
+                <default>false</default>
+                <label>Credencialización</label>
+            </value>
+            <value>
+                <fullName>Directorio Mkt</fullName>
+                <default>false</default>
+                <label>Directorio Mkt</label>
+            </value>
+            <value>
+                <fullName>Productividad sin actividad</fullName>
+                <default>false</default>
+                <label>Productividad sin actividad</label>
+            </value>
+            <value>
+                <fullName>Vinculación Médica</fullName>
+                <default>false</default>
+                <label>Vinculación Médica</label>
+            </value>
+            <value>
+                <fullName>Otra</fullName>
+                <default>false</default>
+                <label>Otra</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

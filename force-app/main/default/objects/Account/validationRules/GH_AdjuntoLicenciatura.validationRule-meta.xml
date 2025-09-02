@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_AdjuntoLicenciatura</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(GH_pkl_Titulo_Licenciatura__c, &apos;SI&apos;) &amp;&amp; ISBLANK( GH_url_AdjuntoLicenciatura__c )</errorConditionFormula>
+    <errorDisplayField>GH_url_AdjuntoLicenciatura__c</errorDisplayField>
+    <errorMessage>Campo Obligatorio</errorMessage>
+</ValidationRule>

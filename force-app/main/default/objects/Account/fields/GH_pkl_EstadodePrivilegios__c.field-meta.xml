@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_pkl_EstadodePrivilegios__c</fullName>
+    <description>Para credencialización</description>
+    <label>Estado de Privilegios</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Con Privilegios</fullName>
+                <default>false</default>
+                <label>✔️ Con Privilegios</label>
+            </value>
+            <value>
+                <fullName>Sin Privilegios</fullName>
+                <default>false</default>
+                <label>❌ Sin Privilegios</label>
+            </value>
+            <value>
+                <fullName>Inactivo</fullName>
+                <default>false</default>
+                <label>❌ Inactivo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

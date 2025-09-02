@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_pkl_Direccion__c</fullName>
+    <externalId>false</externalId>
+    <label>Dirección</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Chief_de_informacion_y_transformacion_Jesus_David_Diaz</fullName>
+                <default>false</default>
+                <label>Chief de información y transformación - Jesus David Diaz</label>
+            </value>
+            <value>
+                <fullName>Chief_medical_informatics_officer_Ana_Victoria_Cuello_Pacheco</fullName>
+                <default>false</default>
+                <label>Chief medical informatics officer - Ana Victoria Cuello Pacheco</label>
+            </value>
+            <value>
+                <fullName>Chief_of_revenue_Jorge_Patricio_Gurza_Cardenas</fullName>
+                <default>false</default>
+                <label>Chief of revenue - Jorge Patricio Gurza Cardenas</label>
+            </value>
+            <value>
+                <fullName>Chief_of_staff_Gustavo_Guerchon</fullName>
+                <default>false</default>
+                <label>Chief of staff - Gustavo Guerchon</label>
+            </value>
+            <value>
+                <fullName>Copresidente_Corebusiness_Bruno_de_Castro_Alves_Pinto</fullName>
+                <default>false</default>
+                <label>Copresidente Corebusiness - Bruno de Castro Alves Pinto</label>
+            </value>
+            <value>
+                <fullName>Copresidente_Finanzas_Sergio_Uriel_Rodriguez_Rivero</fullName>
+                <default>false</default>
+                <label>Copresidente Finanzas - Sergio Uriel Rodríguez Rivero</label>
+            </value>
+            <value>
+                <fullName>Copresidente_Growth_Eduardo_Verboonen_Khoury</fullName>
+                <default>false</default>
+                <label>Copresidente Growth - Eduardo Verboonen Khoury</label>
+            </value>
+            <value>
+                <fullName>Dir_Auditoria_Alfonso_Gomez</fullName>
+                <default>false</default>
+                <label>Dir Auditoria - Alfonso Gomez</label>
+            </value>
+            <value>
+                <fullName>Dir_Comercial_Josue_Sarmiento</fullName>
+                <default>false</default>
+                <label>Dir Comercial - Josue Sarmiento</label>
+            </value>
+            <value>
+                <fullName>Dir_de_Convenios_Dra_Maria_Eugenia_del_Peral</fullName>
+                <default>false</default>
+                <label>Dir de Convenios - Dra María Eugenia del Peral</label>
+            </value>
+            <value>
+                <fullName>Dir_de_Tecnologia_Hans_Omar_Sanchez_Velarde</fullName>
+                <default>false</default>
+                <label>Dir de Tecnología - Hans Omar Sánchez Velarde</label>
+            </value>
+            <value>
+                <fullName>Dir_de_Tesoreria_Manuel_Hector_Gonzalez_Figueroa</fullName>
+                <default>false</default>
+                <label>Dir de Tesoreria - Manuel Héctor González Figueroa</label>
+            </value>
+            <value>
+                <fullName>Direccion_de_compras_Mauricio_Coronel</fullName>
+                <default>false</default>
+                <label>Dirección de compras - Mauricio Coronel</label>
+            </value>
+            <value>
+                <fullName>Direccion_de_enfermeria_Silvana_Daniela_Espinoza_Manjarrez</fullName>
+                <default>false</default>
+                <label>Dirección de enfermería - Silvana Daniela Espinoza Manjarrez</label>
+            </value>
+            <value>
+                <fullName>Direccion_General_CEO_Miguel_Isaac_Khoury_Siman</fullName>
+                <default>false</default>
+                <label>Dirección General (CEO) - Miguel Isaac Khoury Siman</label>
+            </value>
+            <value>
+                <fullName>Directora_de_Capital_Humano_Alejandra_Mireles_Guerrero</fullName>
+                <default>false</default>
+                <label>Directora de Capital Humano - Alejandra Míreles Guerrero</label>
+            </value>
+            <value>
+                <fullName>Directora_Medica_Bianca_Viridiana_Granados_Pinedo</fullName>
+                <default>false</default>
+                <label>Directora Médica - Bianca Viridiana Granados Pinedo</label>
+            </value>
+            <value>
+                <fullName>Director_de_cadena_de_suministro_Omar_Absalao_Valente_de_Olviera</fullName>
+                <default>false</default>
+                <label>Director de cadena de suministro - Omar Absalao Valente de Olviera</label>
+            </value>
+            <value>
+                <fullName>Director_de_Calidad_Gustavo_Barrera_Ramirez</fullName>
+                <default>false</default>
+                <label>Director de Calidad - Gustavo Barrera Ramirez</label>
+            </value>
+            <value>
+                <fullName>Director_decontabilidad_e_impuestos_Bernardo_Sanchez_Olvera</fullName>
+                <default>false</default>
+                <label>Director decontabilidad e impuestos - Bernardo Sánchez Olvera</label>
+            </value>
+            <value>
+                <fullName>Director_de_planeacion_financiera_Javier_Tellez_Lugo</fullName>
+                <default>false</default>
+                <label>Director de planeación financiera - Javier Tellez Lugo</label>
+            </value>
+            <value>
+                <fullName>Dir_Juridico_Serafin_Gonzalez_Perez</fullName>
+                <default>false</default>
+                <label>Dir Jurídico - Serafin Gonzalez Perez</label>
+            </value>
+            <value>
+                <fullName>Ejecutivo_de_Fundacion_Mac_Ana_Gabriela_Gomez_Daminan</fullName>
+                <default>false</default>
+                <label>Ejecutivo de Fundación Mac - Ana Gabriela Gomez Daminan</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

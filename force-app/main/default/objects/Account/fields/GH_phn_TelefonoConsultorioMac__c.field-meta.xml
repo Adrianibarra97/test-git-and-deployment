@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_phn_TelefonoConsultorioMac__c</fullName>
+    <description>Teléfono de consultorio Mac</description>
+    <inlineHelpText>Teléfono de consultorio Mac</inlineHelpText>
+    <label>Teléfono de consultorio Mac</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Phone</type>
+</CustomField>

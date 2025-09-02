@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_AdjuntoCedulaProfesionalMedica</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(ISBLANK(GH_txt_Cedula_Profesional_Med_Gen__c)) &amp;&amp; ISBLANK( GH_url_AdjuntoCedulaProfesionalMedica__c )</errorConditionFormula>
+    <errorDisplayField>GH_url_AdjuntoCedulaProfesionalMedica__c</errorDisplayField>
+    <errorMessage>Campo Obligatorio</errorMessage>
+</ValidationRule>

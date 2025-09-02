@@ -1,0 +1,15 @@
+{
+    "ContextId": "001VZ00000Ga9BdYAJ",
+    "createQuotePriceList": "a5tVZ000000Ue01YAC",
+    "isBulk": "bulk",
+    "opportunityCloseDate": "2021-06-08",
+    "opportunityName": "debuggNewOpty4",
+    "opportunityStage": "Identificada",
+    "quoteName": "debuggNewQuote4",
+    "recordTypeId": "0125A000001RdBtQAK",
+    "selectActionType": "changeAssets",
+    "selectOpportunity": null,
+    "selectQuoteName": null,
+    "selectQuoteType": "createOpportunity",
+    "selectType": "createQuote"
+}

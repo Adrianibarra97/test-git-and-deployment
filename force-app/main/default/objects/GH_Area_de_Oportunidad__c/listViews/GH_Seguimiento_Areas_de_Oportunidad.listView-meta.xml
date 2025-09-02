@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_Seguimiento_Areas_de_Oportunidad</fullName>
+    <columns>NAME</columns>
+    <columns>GH_pkl_Clasificacion__c</columns>
+    <columns>GH_lkp_ClasificacionDeTema__c</columns>
+    <columns>GH_pkl_Copresidencia__c</columns>
+    <columns>GH_pkl_Estado__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Seguimiento de Áreas de Oportunidad</label>
+    <sharedTo>
+        <role>Vinculacion_Medica_Corp</role>
+    </sharedTo>
+</ListView>

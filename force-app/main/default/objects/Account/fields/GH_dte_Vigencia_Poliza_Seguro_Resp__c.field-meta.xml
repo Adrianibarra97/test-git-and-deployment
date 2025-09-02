@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_dte_Vigencia_Poliza_Seguro_Resp__c</fullName>
+    <description>Vigencia de póliza de seguro de responsabilidad civil</description>
+    <inlineHelpText>Vigencia de póliza de seguro de responsabilidad civil</inlineHelpText>
+    <label>Vigencia Póliza de Seguro de Resp. Civil</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

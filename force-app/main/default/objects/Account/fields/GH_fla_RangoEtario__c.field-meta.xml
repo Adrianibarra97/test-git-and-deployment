@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_fla_RangoEtario__c</fullName>
+    <description>Campo que determina el rango etario del cliente en base a su edad.</description>
+    <externalId>false</externalId>
+    <formula>IF(ISNULL(GH_fla_Edad__c), &quot;N/A&quot;, 
+    IF(GH_fla_Edad__c &lt; 30, &quot;Menor a 30&quot;,
+        IF(GH_fla_Edad__c &lt;= 40, &quot;30-40&quot;,
+            IF(GH_fla_Edad__c &lt;= 50, &quot;41-50&quot;,
+                IF(GH_fla_Edad__c &lt;= 60, &quot;51-60&quot;,
+                    IF(GH_fla_Edad__c &lt;= 70, &quot;61-70&quot;,
+                        &quot;Mayor a 70&quot;
+                    )
+                )
+            )
+        )
+    )
+)</formula>
+    <label>Rango etario</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

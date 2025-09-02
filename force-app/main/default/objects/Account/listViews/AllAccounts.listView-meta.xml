@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllAccounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>GH_pkl_Estatus__c</columns>
+    <columns>GH_pkl_Origen__c</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>notEqual</operation>
+        <value>Account.GH_Acc_Aseguradora</value>
+    </filters>
+    <filters>
+        <field>GH_lkp_Unidad_Hospitalaria__c</field>
+        <operation>equals</operation>
+        <value>Querétaro</value>
+    </filters>
+    <label>Todas las Cuentas</label>
+</ListView>

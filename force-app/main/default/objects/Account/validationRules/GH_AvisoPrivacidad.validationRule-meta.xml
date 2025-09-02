@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_AvisoPrivacidad</fullName>
+    <active>true</active>
+    <description>Comprueba que este adjunto el Aviso de privacidad</description>
+    <errorConditionFormula>AND( ISPICKVAL( GH_pkl_AvisoDePrivacidad__c,&quot;SI&quot; ),
+ISBLANK(GH_url_AdjuntoAvisoPrivacidad__c)
+)</errorConditionFormula>
+    <errorMessage>Adjuntar el comprobante de Aviso de privacidad</errorMessage>
+</ValidationRule>

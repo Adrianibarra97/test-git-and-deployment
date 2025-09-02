@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_Account_AsignarAProyectosDiaADia</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>GH_lkp_Unidad_Hospitalaria__c</columns>
+    <columns>GH_pkl_Especialidad_Principal__c</columns>
+    <columns>GH_pkl_EstadodelMedico__c</columns>
+    <columns>GH_pkl_Programa__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Asignar a Proyectos Día a Día</label>
+    <sharedTo>
+        <role>Vinculacion_Medica_UH</role>
+    </sharedTo>
+</ListView>

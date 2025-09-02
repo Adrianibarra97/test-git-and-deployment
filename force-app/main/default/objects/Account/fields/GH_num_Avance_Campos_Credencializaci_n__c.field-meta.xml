@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_num_Avance_Campos_Credencializaci_n__c</fullName>
+    <description>Campo para almacenar el avance de los campos obligatorios en cada caso de credencialización</description>
+    <label>Avance Campos Credencialización</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

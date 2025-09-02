@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_PrivilegiosCompletos</fullName>
+    <active>true</active>
+    <description>Regla para validar que se elijan de manera adecuada los datos para estado de privilegios completos</description>
+    <errorConditionFormula>AND (
+ ISPICKVAL( GH_pkl_Cobertura_de_Credenciales__c , &quot;Credencial Completa&quot;), ISPICKVAL(GH_pkl_Estatus__c, &quot;Privilegios Completo o Incompleto&quot;), GH_pct_Porcentaje_de_Avance__c &lt; 1
+)</errorConditionFormula>
+    <errorMessage>Para marcar el estado de privilegios como completo, el porcentaje de avance de cobertura debe ser del 100%</errorMessage>
+</ValidationRule>

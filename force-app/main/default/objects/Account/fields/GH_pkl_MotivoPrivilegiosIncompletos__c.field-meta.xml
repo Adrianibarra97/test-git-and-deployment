@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_pkl_MotivoPrivilegiosIncompletos__c</fullName>
+    <description>Motivo para indicar por qué se envía a aprobación sin cumplir con todos los documentos.</description>
+    <inlineHelpText>Indique el motivo para indicar por qué se envía a aprobación sin cumplir con todos los documentos.</inlineHelpText>
+    <label>Motivo de Privilegios Incompletos</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>GH_pkl_Cobertura_de_Credenciales__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Dirección</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Dirección</label>
+            </value>
+            <value>
+                <fullName>Dirección administrativa solicita seguir proceso</fullName>
+                <default>false</default>
+                <label>Dirección administrativa solicita seguir proceso</label>
+            </value>
+            <value>
+                <fullName>Dirección médica corporativa solicita seguir proceso</fullName>
+                <default>false</default>
+                <label>Dirección médica corporativa solicita seguir proceso</label>
+            </value>
+            <value>
+                <fullName>Dirección médica solicita seguir proceso</fullName>
+                <default>false</default>
+                <label>Dirección médica solicita seguir proceso</label>
+            </value>
+            <value>
+                <fullName>Dirección regional solicita seguir proceso</fullName>
+                <default>false</default>
+                <label>Dirección regional solicita seguir proceso</label>
+            </value>
+            <value>
+                <fullName>El monto de la póliza de seguro de responsabilidad civil es inferior a 1 mdp</fullName>
+                <default>false</default>
+                <label>El monto de la póliza de seguro de responsabilidad civil es inferior a 1 mdp</label>
+            </value>
+            <value>
+                <fullName>Esta en proceso la emisión de la cédula de especialidad</fullName>
+                <default>false</default>
+                <label>Esta en proceso la emisión de la cédula de especialidad</label>
+            </value>
+            <value>
+                <fullName>Esta en proceso la emisión de la cédula de licenciatura</fullName>
+                <default>false</default>
+                <label>Esta en proceso la emisión de la cédula de licenciatura</label>
+            </value>
+            <value>
+                <fullName>Esta en proceso la emisión de la cédula de subespecialidad</fullName>
+                <default>false</default>
+                <label>Esta en proceso la emisión de la cédula de subespecialidad</label>
+            </value>
+            <value>
+                <fullName>Esta en proceso la emisión del consejo de especialidad</fullName>
+                <default>false</default>
+                <label>Esta en proceso la emisión del consejo de especialidad</label>
+            </value>
+            <value>
+                <fullName>Esta en proceso la emisión del consejo de subespecialidad</fullName>
+                <default>false</default>
+                <label>Esta en proceso la emisión del consejo de subespecialidad</label>
+            </value>
+            <value>
+                <fullName>Esta en proceso la emisión del titulo de especialidad</fullName>
+                <default>false</default>
+                <label>Esta en proceso la emisión del titulo de especialidad</label>
+            </value>
+            <value>
+                <fullName>Esta en proceso la emisión del titulo de licenciatura</fullName>
+                <default>false</default>
+                <label>Esta en proceso la emisión del titulo de licenciatura</label>
+            </value>
+            <value>
+                <fullName>Esta en proceso la emisión del titulo de subespecialidad</fullName>
+                <default>false</default>
+                <label>Esta en proceso la emisión del titulo de subespecialidad</label>
+            </value>
+            <value>
+                <fullName>Falta cédula profesional de especialidad</fullName>
+                <default>false</default>
+                <label>Falta cédula profesional de especialidad</label>
+            </value>
+            <value>
+                <fullName>Falta cédula profesional de licenciatura</fullName>
+                <default>false</default>
+                <label>Falta cédula profesional de licenciatura</label>
+            </value>
+            <value>
+                <fullName>Falta cédula profesional de subespecialidad</fullName>
+                <default>false</default>
+                <label>Falta cédula profesional de subespecialidad</label>
+            </value>
+            <value>
+                <fullName>Falta de póliza de seguro de responsabilidad civil</fullName>
+                <default>false</default>
+                <label>Falta de póliza de seguro de responsabilidad civil</label>
+            </value>
+            <value>
+                <fullName>Falta título de especialidad</fullName>
+                <default>false</default>
+                <label>Falta título de especialidad</label>
+            </value>
+            <value>
+                <fullName>Falta título de licenciatura</fullName>
+                <default>false</default>
+                <label>Falta título de licenciatura</label>
+            </value>
+            <value>
+                <fullName>Falta título de subespecialidad</fullName>
+                <default>false</default>
+                <label>Falta título de subespecialidad</label>
+            </value>
+            <value>
+                <fullName>No está vigente la póliza de seguro de responsabilidad civil</fullName>
+                <default>false</default>
+                <label>No está vigente la póliza de seguro de responsabilidad civil</label>
+            </value>
+            <value>
+                <fullName>No se pudo verificar cédula de especialidad</fullName>
+                <default>false</default>
+                <label>No se pudo verificar cédula de especialidad</label>
+            </value>
+            <value>
+                <fullName>No se pudo verificar cédula de licenciatura</fullName>
+                <default>false</default>
+                <label>No se pudo verificar cédula de licenciatura</label>
+            </value>
+            <value>
+                <fullName>No se pudo verificar cédula de subespecialidad</fullName>
+                <default>false</default>
+                <label>No se pudo verificar cédula de subespecialidad</label>
+            </value>
+            <value>
+                <fullName>No se pudo verificar consejo de especialidad</fullName>
+                <default>false</default>
+                <label>No se pudo verificar consejo de especialidad</label>
+            </value>
+            <value>
+                <fullName>No se pudo verificar consejo de subespecialidad</fullName>
+                <default>false</default>
+                <label>No se pudo verificar consejo de subespecialidad</label>
+            </value>
+            <value>
+                <fullName>No tiene consejo de especialidad</fullName>
+                <default>false</default>
+                <label>No tiene consejo de especialidad</label>
+            </value>
+            <value>
+                <fullName>No tiene consejo de subespecialidad</fullName>
+                <default>false</default>
+                <label>No tiene consejo de subespecialidad</label>
+            </value>
+            <value>
+                <fullName>No tiene vigente el consejo de especialidad</fullName>
+                <default>false</default>
+                <label>No tiene vigente el consejo de especialidad</label>
+            </value>
+            <value>
+                <fullName>No tiene vigente el consejo de subespecialidad</fullName>
+                <default>false</default>
+                <label>No tiene vigente el consejo de subespecialidad</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>Dirección administrativa solicita seguir proceso</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>Dirección médica corporativa solicita seguir proceso</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>Dirección médica solicita seguir proceso</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>Dirección regional solicita seguir proceso</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>El monto de la póliza de seguro de responsabilidad civil es inferior a 1 mdp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>Esta en proceso la emisión de la cédula de especialidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>Esta en proceso la emisión de la cédula de licenciatura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>Esta en proceso la emisión de la cédula de subespecialidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>Esta en proceso la emisión del consejo de especialidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>Esta en proceso la emisión del consejo de subespecialidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>Esta en proceso la emisión del titulo de especialidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>Esta en proceso la emisión del titulo de licenciatura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>Esta en proceso la emisión del titulo de subespecialidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>Falta cédula profesional de especialidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>Falta cédula profesional de licenciatura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>Falta cédula profesional de subespecialidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>Falta de póliza de seguro de responsabilidad civil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>Falta título de especialidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>Falta título de licenciatura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>Falta título de subespecialidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>No está vigente la póliza de seguro de responsabilidad civil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>No se pudo verificar cédula de especialidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>No se pudo verificar cédula de licenciatura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>No se pudo verificar cédula de subespecialidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>No se pudo verificar consejo de especialidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>No se pudo verificar consejo de subespecialidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>No tiene consejo de especialidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>No tiene consejo de subespecialidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>No tiene vigente el consejo de especialidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial Incompleta</controllingFieldValue>
+            <valueName>No tiene vigente el consejo de subespecialidad</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

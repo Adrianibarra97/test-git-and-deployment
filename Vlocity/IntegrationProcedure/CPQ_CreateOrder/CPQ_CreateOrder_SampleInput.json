@@ -1,0 +1,25 @@
+{
+    "CreateSelectOrder": {
+        "AssetIds": "02iVZ000003srQfYAI",
+        "ContextId": "001VZ00000HixXHYAZ",
+        "SelectPriceListText": "CLARO COLOMBIA",
+        "createOrderDate": "2025-05-27",
+        "createOrderPriceList": "a5tVZ000000Skj3YAC",
+        "createOrderStatus": "Draft",
+        "filterString": "",
+        "isBulk": "bulk",
+        "isMultipleAssetsSelected": false,
+        "multipleAssetsSelectedMsg": null,
+        "orderName": "Bulkdebug1_2705",
+        "orderStartRequestDateTime": "2025-05-28T06:30:00.000Z",
+        "orderStartRequestDateTimeValidate": true,
+        "orderStartRequestDateTimeValidateMsg": null,
+        "query": "",
+        "recordTypeId": "012Vq00000158DWIAY",
+        "searchBy": "",
+        "selectActionType": "changeAssets",
+        "selectAllResults": "",
+        "selectOrderName": null,
+        "selectType": "createOrder"
+    }
+}

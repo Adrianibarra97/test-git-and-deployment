@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_FormatoCURP</fullName>
+    <active>true</active>
+    <description>Regla de validación para formato CURP</description>
+    <errorConditionFormula>( NOT(ISBLANK(GH_txt_CURP__c)) &amp;&amp; 
+  NOT( REGEX(GH_txt_CURP__c, &apos;^([A-Z][AEIOUX][A-Z]{2}\\d{2}(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\\d|3[01])[HM](?:AS|B[CS]|C[CLMSH]|D[FG]|G[TR]|HG|JC|M[CNS]|N[ETL]|OC|PL|Q[TR]|S[PLR]|T[CSL]|VZ|YN|ZS)[B-DF-HJ-NP-TV-Z]{3}[A-Z\\d])(\\d|[A-Z])$&apos;) )
+)</errorConditionFormula>
+    <errorDisplayField>GH_txt_CURP__c</errorDisplayField>
+    <errorMessage>Formato de CURP inválido. Solo se permiten letras en MAYÚCULAS sin acentos</errorMessage>
+</ValidationRule>

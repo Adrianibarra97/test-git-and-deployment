@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_CuentaClabe</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(REGEX(GH_txt_CuentaClabe__c, &apos;^[0-9]{18}&apos;)) &amp;&amp;  ! ISBLANK(GH_txt_CuentaClabe__c)</errorConditionFormula>
+    <errorMessage>El campo cuenta CLABE debe númerico y  tener  18 dígitos</errorMessage>
+</ValidationRule>

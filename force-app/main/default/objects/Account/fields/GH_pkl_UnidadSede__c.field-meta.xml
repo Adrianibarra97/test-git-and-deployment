@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_pkl_UnidadSede__c</fullName>
+    <label>Unidad Sede</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Veracruz</fullName>
+                <default>false</default>
+                <label>Veracruz</label>
+            </value>
+            <value>
+                <fullName>MediMAC Mérida</fullName>
+                <default>false</default>
+                <label>MediMAC Mérida</label>
+            </value>
+            <value>
+                <fullName>Puebla</fullName>
+                <default>false</default>
+                <label>Puebla</label>
+            </value>
+            <value>
+                <fullName>Guadalajara</fullName>
+                <default>false</default>
+                <label>Guadalajara</label>
+            </value>
+            <value>
+                <fullName>Mexicali</fullName>
+                <default>false</default>
+                <label>Mexicali</label>
+            </value>
+            <value>
+                <fullName>MediMAC Cuemanco</fullName>
+                <default>false</default>
+                <label>MediMAC Cuemanco</label>
+            </value>
+            <value>
+                <fullName>Celaya</fullName>
+                <default>false</default>
+                <label>Celaya</label>
+            </value>
+            <value>
+                <fullName>Querétaro</fullName>
+                <default>false</default>
+                <label>Querétaro</label>
+            </value>
+            <value>
+                <fullName>León</fullName>
+                <default>false</default>
+                <label>León</label>
+            </value>
+            <value>
+                <fullName>MediMAC Guanajuato</fullName>
+                <default>false</default>
+                <label>MediMAC Guanajuato</label>
+            </value>
+            <value>
+                <fullName>Irapuato</fullName>
+                <default>false</default>
+                <label>Irapuato</label>
+            </value>
+            <value>
+                <fullName>San Miguel</fullName>
+                <default>false</default>
+                <label>San Miguel</label>
+            </value>
+            <value>
+                <fullName>Los Cabos</fullName>
+                <default>false</default>
+                <label>Los Cabos</label>
+            </value>
+            <value>
+                <fullName>La Viga</fullName>
+                <default>false</default>
+                <label>La Viga</label>
+            </value>
+            <value>
+                <fullName>Los Mochis</fullName>
+                <default>false</default>
+                <label>Los Mochis</label>
+            </value>
+            <value>
+                <fullName>Tampico</fullName>
+                <default>false</default>
+                <label>Tampico</label>
+            </value>
+            <value>
+                <fullName>Aguascalientes Norte</fullName>
+                <default>false</default>
+                <label>Aguascalientes Norte</label>
+            </value>
+            <value>
+                <fullName>Aguascalientes Sur</fullName>
+                <default>false</default>
+                <label>Aguascalientes Sur</label>
+            </value>
+            <value>
+                <fullName>MediMAC Tlalnepantla</fullName>
+                <default>false</default>
+                <label>MediMAC Tlalnepantla</label>
+            </value>
+            <value>
+                <fullName>MediMAC Ecatepec</fullName>
+                <default>false</default>
+                <label>MediMAC Ecatepec</label>
+            </value>
+            <value>
+                <fullName>MediMAC Boca del Río</fullName>
+                <default>false</default>
+                <label>MediMAC Boca del Río</label>
+            </value>
+            <value>
+                <fullName>San Miguel de Allende</fullName>
+                <default>false</default>
+                <label>San Miguel de Allende</label>
+            </value>
+            <value>
+                <fullName>Periférico Sur</fullName>
+                <default>false</default>
+                <label>Periférico Sur</label>
+            </value>
+            <value>
+                <fullName>Interlomas</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Interlomas</label>
+            </value>
+            <value>
+                <fullName>MediMAC Interlomas</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MediMAC Interlomas</label>
+            </value>
+            <value>
+                <fullName>MediMAC Tijuana</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MediMAC Tijuana</label>
+            </value>
+            <value>
+                <fullName>Perisur</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Perisur</label>
+            </value>
+            <value>
+                <fullName>Santa Fe</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Santa Fe</label>
+            </value>
+            <value>
+                <fullName>Tijuana</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tijuana</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

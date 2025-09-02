@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GH_pkl_Copresidencia__c</fullName>
+    <externalId>false</externalId>
+    <label>Copresidencia</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Copresidente_Finanzas_Sergio_Uriel_Rodriguez_Rivero</fullName>
+                <default>false</default>
+                <label>Copresidente Finanzas - Sergio Uriel Rodríguez Rivero</label>
+            </value>
+            <value>
+                <fullName>Copresidente_Corebusiness_Bruno_de_Castro_Alves_Pinto</fullName>
+                <default>false</default>
+                <label>Copresidente Corebusiness- Bruno  de Castro Alves Pinto</label>
+            </value>
+            <value>
+                <fullName>Copresidente_Growth_Eduardo_Verboonen_Khoury</fullName>
+                <default>false</default>
+                <label>Copresidente Growth - Eduardo Verboonen Khoury</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
