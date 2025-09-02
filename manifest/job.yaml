@@ -1,0 +1,12 @@
+autoRetryErrors: true
+defaultMaxParallel: 10
+manifest:
+- OmniScript/Crear_Pedido_Spanish
+manifestOnly: true
+lwcCompilerVersion: '900.575'
+npmAuthKey: Y3VzdG9tZXJfZGV2b3BzX2xhYnNfeGQ6LWUyZ2R0TnA5eU5aWVlBag==
+npmRepository: 'https://repo.vlocity.com/repository/vlocity-public/'
+projectPath: ./vlocity
+supportHeadersOnly: false
+useSfdxCli: true
+# gitCheck: true
